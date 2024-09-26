@@ -102,7 +102,7 @@ export default function Home() {
         <div className="flex items-center mt-20 justify-center w-full" >
           <div className="flex lg:w-9/12 w-4/5 flex-col gap-4 border-y-border items-center justify-center text-center border-y-2  py-4 lg:py-10 " >
 
-            <h2 className="font-bold text-lg " >Morover it is required in stewards that a man be found faithful</h2>
+            <h2 className="font-bold text-lg " >Moreover it is required in stewards that a man be found faithful</h2>
             <p>- 1 Corinthians 4:2 (KJV)</p>
 
 

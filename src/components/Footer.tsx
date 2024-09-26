@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-primary mt-20 text-primary-foreground py-10">
             <div className="container px-4 flex flex-col lg:flex-row justify-between items-center lg:items-start">
                 {/* Left Section */}
-                <div className="flex flex-col w-full space-y-4">
+                <div className="flex flex-col w-full px-4 space-y-4">
                     <h3 className="text-base font-semibold">The Fellowship App</h3>
 
                     {/* terms section */}
