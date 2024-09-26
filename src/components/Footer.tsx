@@ -5,10 +5,10 @@ import { Button } from "./ui/button";
 
 const Footer = () => {
     return (
-        <footer className="bg-primary mt-20 text-primary-foreground lg:px-10 py-10">
-            <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:items-start">
+        <footer className="bg-primary mt-20 text-primary-foreground py-10">
+            <div className="container px-4 flex flex-col lg:flex-row justify-between items-center lg:items-start">
                 {/* Left Section */}
-                <div className="flex flex-col space-y-4">
+                <div className="flex flex-col w-full space-y-4">
                     <h3 className="text-base font-semibold">The Fellowship App</h3>
 
                     {/* terms section */}
@@ -43,10 +43,10 @@ const Footer = () => {
                 </div>
 
                 {/* Right Section */}
-                <div className="flex flex-col px-4 items-start mt-10 lg:mt-0">
+                <div className="flex flex-col  items-start mt-10 lg:mt-0">
                     <h4 className="font-semibold text-lg mb-2">Newsletter</h4>
                     <p className="text-sm mb-2 text-foreground">Join our newsletter to stay up to never miss our latest releases</p>
-                    <div className="flex flex-col lg:flex-row w-full max-w-sm items-center space-x-2">
+                    <div className="flex flex-col gap-3 lg:flex-row w-full max-w-sm items-center space-x-2">
                         <Input type="email" placeholder="Email" />                        <Button type="submit" className="bg-purple-600" >Subscribe</Button>
                     </div>
                     <p className="text-sm text-primary-foreground mt-2">

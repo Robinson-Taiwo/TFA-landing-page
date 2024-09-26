@@ -58,7 +58,7 @@ export default function Home() {
 
 
       <section>
-        <div className="flex items-center justify-center mt-20 py-4 lg:py-10 bg-gray-50">
+        <div className="flex items-center justify-center mt-20 py-4 lg:py-10 ">
           <div className="flex flex-wrap justify-center space-y-8 sm:space-y-0 sm:space-x-8">
             {/* Stat 1 */}
             <div className="flex flex-col items-center w-full sm:w-auto">
