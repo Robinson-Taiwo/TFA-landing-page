@@ -47,7 +47,7 @@ const Footer = () => {
                     <h4 className="font-semibold text-lg mb-2">Newsletter</h4>
                     <p className="text-sm mb-2 text-foreground">Join our newsletter to stay up to never miss our latest releases</p>
                     <div className="flex flex-col gap-3 lg:flex-row w-full max-w-sm items-center space-x-2">
-                        <Input type="email" placeholder="Email" />                        <Button type="submit" className="bg-purple-600" >Subscribe</Button>
+                        <Input type="email" placeholder="Email" className="placeholder:text-slate-300" />                        <Button type="submit" className="bg-purple-600" >Subscribe</Button>
                     </div>
                     <p className="text-sm text-primary-foreground mt-2">
                         By subscribing you agree to our <a href="#" className="underline">Privacy Policy</a>

@@ -31,34 +31,43 @@ export default function Home() {
 
       </div>
 
+      <section className="h-full mt-20">
+        <h3 className="  text-base lg:text-lg mb-10 text-muted-foreground font-medium" >
 
-      <section className="flex flex-wrap w-full justify-center mt-20 pb-8 gap-8">
-        {testimonials.map((testimonial, index) => (
-          <div
-            key={index}
-            className="w-4/5 sm:w-72 md:w-64 h-72 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
-          >
-            {/* Image (Replace with actual image path and alt text) */}
-            <div className="h-16 w-16 rounded-full bg-muted mb-4">
-              <Image
-                src=""
-                alt={`${testimonial.author} avatar`}
-                className="h-full w-full rounded-full object-cover"
-              />
+          stay spiritually disciplined and connected
+        </h3>
+        <h1 className="  text-2xl lg:text-4xl font-semibold" >
+
+          Hear from other Christian Leaders...
+        </h1>
+        <div className="flex flex-wrap w-full justify-center mt-10 pb-8 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div
+              key={index}
+              className="w-4/5 sm:w-72 md:w-64 h-72 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
+            >
+              {/* Image (Replace with actual image path and alt text) */}
+              <div className="h-16 w-16 rounded-full bg-muted mb-4">
+                <Image
+                  src=""
+                  alt={`${testimonial.author} avatar`}
+                  className="h-full w-full rounded-full object-cover"
+                />
+              </div>
+
+              {/* Testimonial content */}
+              <p className="text-center text-sm sm:text-base"> &quot;{testimonial.content}&quot; </p>
+
+              {/* Author */}
+              <p className="text-sm sm:text-base mt-4">- {testimonial.author}</p>
             </div>
-
-            {/* Testimonial content */}
-            <p className="text-center text-sm sm:text-base"> &quot;{testimonial.content}&quot; </p>
-
-            {/* Author */}
-            <p className="text-sm sm:text-base mt-4">- {testimonial.author}</p>
-          </div>
-        ))}
+          ))}
+        </div>
       </section>
 
 
       <section>
-        <div className="flex items-center justify-center mt-20 py-4 lg:py-10 ">
+        <div className="flex items-center justify-center mt-4 py-4 lg:py-10 ">
           <div className="flex flex-wrap justify-center space-y-8 sm:space-y-0 sm:space-x-8">
             {/* Stat 1 */}
             <div className="flex flex-col items-center w-full sm:w-auto">
