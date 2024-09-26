@@ -18,7 +18,7 @@ const FirstFeature = () => {
                             <h2 className="text-xl md:text-3xl  tracking-tighter lg:max-w-xl font-regular text-left">
                                 Behold we give you a new way...
                             </h2>
-                            <p className="lg:text-lg text-base max-w-xl flex flex-col  lg:max-w-sm leading-relaxed space-y-4 tracking-tight text-muted-foreground text-left">
+                            <p className="lg:text-lg text-base max-w-xl leading-snug flex flex-col  lg:max-w-sm  space-y-4 tracking-tight text-muted-foreground text-left">
                                 <span>Say goodbye to the endless spreadsheets, countless whatsapp messages and the shutter sound of too many screenshots. The Fellowship app will do your flock’s tracking AND reporting without the need to lift a finger. </span>
                                 <span className='italic'  >(Okay, maybe you’ll lift one finger. But that’s all. Promise!)</span>
                                 <span>With insightful reports and analytics, you’ll have all the divine data you need to guide your congregation with confidence.

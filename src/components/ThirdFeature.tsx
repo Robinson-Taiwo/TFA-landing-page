@@ -17,7 +17,7 @@ const ThirdFeature = () => {
                             <h2 className="text-xl md:text-3xl  tracking-tighter lg:max-w-xl font-regular text-left">
                                 On the Pulse, On the Go
                             </h2>
-                            <p className="lg:text-lg text-base max-w-xl flex flex-col  lg:max-w-sm leading-relaxed space-y-4 tracking-tight text-muted-foreground text-left">
+                            <p className="lg:text-lg text-base max-w-xl flex flex-col  lg:max-w-sm leading-snug space-y-4 tracking-tight text-muted-foreground text-left">
                                 Keep your congregation close, no matter the distance. Monitor progress, identify struggles, celebrate milestones, and send encouraging messages—all from one blessed dashboard.
                             </p>
                         </div>

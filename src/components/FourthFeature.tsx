@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from "next/image";
+import illustration from "@/components/images/prop.jpeg"
 
 const FourthFeature = () => {
     return (
@@ -12,14 +14,16 @@ const FourthFeature = () => {
                             <h2 className="text-xl md:text-3xl tracking-tighter lg:max-w-xl font-regular text-left">
                                 The Whole Armour, on autopilot
                             </h2>
-                            <p className="lg:text-lg text-base max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
+                            <p className="lg:text-lg text-base max-w-xl lg:max-w-sm leading-snug tracking-tight text-muted-foreground text-left">
                                 Nurture your faith journey with tools designed to foster consistency and growth. From sermon reminders to Bible reading trackers, TFA equips you with everything you need to.
 
 
                             </p>
                         </div>
                     </div>
-                    <div className="bg-muted rounded-md w-full aspect-video h-full flex-1"></div>
+                    <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
+                    <Image src={illustration} className=" h-full w-full object-cover " alt="illustration" />
+                    </div>
                 </div>
             </div>
         </div>

@@ -65,15 +65,15 @@ export const HeroSection = () => {
                             </span>
                         </h1>
 
-                        <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-                            No Spreadsheet or Stressful Screenshot Required
+                        <p className="text-lg md:text-xl leading-snug-tight text-muted-foreground max-w-2xl text-center">
+                            *No Spreadsheet or Stressful Screenshot Required
 
                         </p>
                     </div>
 
 
 
-                    <Image src={illustration} className=" w-[60vw] " alt="illustration" />
+                    <Image src={illustration} className=" w-[100%] " alt="illustration" />
 
 
                     <div className="flex w-full max-w-sm items-center space-x-2">
