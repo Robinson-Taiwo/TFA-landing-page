@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 import { motion } from "framer-motion";
-import illustration from "@/components/images/pup.png"
+import illustration from "@/components/images/showcase1.jpeg"
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input"
 

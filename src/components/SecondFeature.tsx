@@ -1,4 +1,7 @@
 import React from 'react'
+import Image from "next/image";
+import illustration from "@/components/images/tf.jpeg"
+
 
 const SecondFeature = () => {
     return (
@@ -18,7 +21,8 @@ const SecondFeature = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="bg-muted rounded-md w-full aspect-video h-full flex-1"></div>
+                    <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">                 <Image src={illustration} className=" h-full w-full object-cover " alt="illustration" />
+                    </div>
                 </div>
             </div>
         </div>
