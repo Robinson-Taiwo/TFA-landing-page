@@ -49,8 +49,10 @@ export default function Home() {
               {/* Image (Replace with actual image path and alt text) */}
               <div className="h-16 w-16 rounded-full bg-muted mb-4">
                 <Image
-                  src=""
+                  src={testimonial.image}
                   alt={`${testimonial.author} avatar`}
+                  width={64}
+                  height={64}
                   className="h-full w-full rounded-full object-cover"
                 />
               </div>
