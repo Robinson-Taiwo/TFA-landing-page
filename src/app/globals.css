@@ -6,6 +6,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* For Webkit browsers (Chrome, Safari, Edge) */
+html, body {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
