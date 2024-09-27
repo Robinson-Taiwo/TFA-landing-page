@@ -7,6 +7,13 @@ import { HeroSection } from "@/components/HeroSection";
 import SecondFeature from "@/components/SecondFeature";
 import ThirdFeature from "@/components/ThirdFeature";
 import Image from "next/image";
+import google from "@/components/images/google-.svg"
+import appStore from "@/components/images/app-store.svg"
+import preview from "@/components/images/preview.png"
+
+
+
+// import { IoMdWifi } from "react-icons/io";
 
 export default function Home() {
   return (
@@ -116,15 +123,50 @@ export default function Home() {
 
           <div className="flex items-center mt-20 justify-center w-full" >
             <div className="flex lg:w-9/12 w-4/5 flex-col gap-4 border-y-border items-center justify-center text-center border-y-2  py-4 lg:py-10 " >
-
-              <h2 className="font-bold text-lg " >Moreover it is required in stewards that a man be found faithful</h2>
-              <p>- 1 Corinthians 4:2 (KJV)</p>
+            <h2 className="font-bold text-lg " >Moreover it is required in stewards that a man be found faithful</h2>
+            <p>- 1 Corinthians 4:2 (KJV)</p>
 
 
             </div>
           </div>
 
         </section>
+
+
+        <div className="w-full  flex items-center justify-center mt-10 "  >
+
+
+
+          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden h-96 bg-primary rounded-3xl max-w-5xl  ">
+
+
+
+            <div className=" w-full lg:w-3/5 lg:p-8 p-4 " >
+              <h1 className="text-primary-foreground lg:leading-snug  lg:text-5xl font-extrabold text-2xl " >
+                Get started with your fellowship journey
+              </h1>
+
+              <p className="text-primary-foreground mt-4 leading-tight text-sm lg:text-xl " >
+                Discover the latest Fellowship innovation
+              </p>
+
+              <div className="w-3/5 lg:w-2/5 flex flex-row gap-4 ">
+                <Image src={google} className=" w-3/5   " alt="illustration" />
+
+                <Image src={appStore} className="w-3/5  h-fit " alt="illustration" />
+              </div>
+            </div>
+
+            <Image src={preview} className=" absolute lg:-right-8 lg:top-0 lg:h-[140%] lg:w-1/2 -bottom-14  " alt="illustration" />
+
+
+          </div>
+
+        </div>
+
+
+
+
 
       </div>
 

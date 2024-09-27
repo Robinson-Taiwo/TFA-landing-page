@@ -5,10 +5,10 @@ import { Button } from "./ui/button";
 
 const Footer = () => {
     return (
-        <footer className="bg-primary mt-20 flex flex-col items-center text-primary-foreground py-10">
-            <div className="container px-4 max-w-7xl flex flex-col lg:flex-row justify-between items-center lg:items-start">
+        <footer className="bg-primary mt-20 flex flex-col items-center text-primary-foreground px-4 lg:px-8 py-10">
+            <div className="container  max-w-7xl flex flex-col lg:flex-row justify-between items-center lg:items-start">
                 {/* Left Section */}
-                <div className="flex flex-col    space-y-4">
+                <div className="flex flex-col   space-y-4">
                     <h3 className="text-base font-semibold">The Fellowship App</h3>
 
                     {/* terms section */}
