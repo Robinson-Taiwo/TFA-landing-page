@@ -137,7 +137,7 @@ export default function Home() {
 
 
 
-          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden h-96 bg-primary rounded-3xl max-w-5xl  ">
+          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden lg:h-96 h-[27rem] bg-primary rounded-3xl max-w-5xl  ">
 
 
 
