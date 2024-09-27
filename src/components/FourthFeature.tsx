@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import illustration from "@/components/images/prop.jpeg"
+import illustration from "@/components/images/auto.jpeg"
 
 const FourthFeature = () => {
     return (
