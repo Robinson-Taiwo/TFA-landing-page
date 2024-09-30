@@ -7,20 +7,17 @@ import { HeroSection } from "@/components/HeroSection";
 import SecondFeature from "@/components/SecondFeature";
 import ThirdFeature from "@/components/ThirdFeature";
 import Image from "next/image";
-import google from "@/components/images/google-.svg"
-import appStore from "@/components/images/app-store.svg"
+import google from "@/components/images/getOnPlaystore.png"
+import appStore from "@/components/images/appstore.svg"
 import preview from "@/components/images/preview.png"
 
 
 
-// import { IoMdWifi } from "react-icons/io";
 
 export default function Home() {
   return (
     <div className="  p-10  w-screen flex  bg-background text-foreground flex-col  ">
-      <div className="max-w-7xl mx-auto w-full"> {/* Adjust max-w-* as needed */}
-
-
+      <div className="max-w-5xl mx-auto w-full">
 
 
         <HeroSection />
@@ -55,7 +52,7 @@ export default function Home() {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="w-4/5 sm:w-72 md:w-64 h-72 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
+                className="w-4/5 sm:w-72 md:w-64 h-80 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
               >
                 {/* Image (Replace with actual image path and alt text) */}
                 <div className="h-16 w-16 rounded-full bg-muted mb-4">
@@ -69,10 +66,10 @@ export default function Home() {
                 </div>
 
                 {/* Testimonial content */}
-                <p className="text-center text-sm sm:text-base"> &quot;{testimonial.content}&quot; </p>
+                <p className="text-center text-sm lg:text-lg sm:text-base"> &quot;{testimonial.content}&quot; </p>
 
                 {/* Author */}
-                <p className="text-sm sm:text-base mt-4">- {testimonial.author}</p>
+                <p className="text-sm sm:text-base  font-bold mt-4">- {testimonial.author}</p>
               </div>
             ))}
           </div>
@@ -85,7 +82,7 @@ export default function Home() {
               {/* Stat 1 */}
               <div className="flex flex-col items-center w-full sm:w-auto">
                 <h2 className="text-2xl font-bold">300+</h2>
-                <div className="flex items-center space-x-2">
+                <div className="flex lg:text-xl items-center space-x-2">
                   <p>Disciples onboarded</p>
                   <div className="lg:border-l-2 h-4 lg:border-gray-300"></div>
                 </div>
@@ -94,7 +91,7 @@ export default function Home() {
               {/* Stat 2 */}
               <div className="flex flex-col items-center w-full sm:w-auto">
                 <h2 className="text-2xl font-bold">15+</h2>
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center lg:text-xl space-x-2">
                   <p>Unit groups</p>
                   <div className="lg:border-l-2 h-4 lg:border-gray-300"></div>
                 </div>
@@ -103,7 +100,7 @@ export default function Home() {
               {/* Stat 3 */}
               <div className="flex flex-col items-center w-full sm:w-auto">
                 <h2 className="text-2xl font-bold">4+</h2>
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center lg:text-xl space-x-2">
                   <p>Congregations</p>
                   <div className="lg:border-l-2 h-4 lg:border-gray-300"></div>
                 </div>
@@ -112,7 +109,7 @@ export default function Home() {
               {/* Stat 4 */}
               <div className="flex flex-col items-center w-full sm:w-auto">
                 <h2 className="text-2xl font-bold">2</h2>
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center lg:text-xl space-x-2">
                   <p>Countries</p>
                 </div>
               </div>
@@ -123,8 +120,8 @@ export default function Home() {
 
           <div className="flex items-center mt-20 justify-center w-full" >
             <div className="flex lg:w-9/12 w-4/5 flex-col gap-4 border-y-border items-center justify-center text-center border-y-2  py-4 lg:py-10 " >
-            <h2 className="font-bold text-lg " >Moreover it is required in stewards that a man be found faithful</h2>
-            <p>- 1 Corinthians 4:2 (KJV)</p>
+              <h2 className="font-bold text-lg lg:text-2xl " >Moreover it is required in stewards that a man be found faithful</h2>
+              <p  className=" italic " >  - 1 Corinthians 4:2 (KJV)</p>
 
 
             </div>
@@ -137,27 +134,27 @@ export default function Home() {
 
 
 
-          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden lg:h-96 h-[27rem] bg-primary rounded-3xl max-w-5xl  ">
+          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden lg:h-96 h-[27rem] bg-primary rounded-3xl max-w-5xl items-center  ">
 
 
 
-            <div className=" w-full lg:w-3/5 lg:p-8 p-4 " >
-              <h1 className="text-primary-foreground lg:leading-snug  lg:text-5xl font-extrabold text-2xl " >
+            <div className=" w-full lg:w-3/5 lg:p-8 p-4 md:p-6 " >
+              <h1 className="text-primary-foreground lg:leading-snug  lg:text-5xl md:text-4xl font-extrabold text-2xl  " >
                 Get started with your fellowship journey
               </h1>
 
-              <p className="text-primary-foreground mt-4 leading-tight text-sm lg:text-xl " >
+              <p className="text-primary-foreground mt-4 leading-tight text-sm lg:text-xl md:text-base  " >
                 Discover the latest Fellowship innovation
               </p>
 
-              <div className="w-3/5 lg:w-2/5 flex flex-row gap-4 ">
-                <Image src={google} className=" w-3/5   " alt="illustration" />
+              <div className="md:w-3/5 w-full lg:w-fit mt-4 flex flex-row md:gap-4 gap-[5%] ">
+                <Image src={google} className="  w-[45%]  " alt="illustration" />
 
-                <Image src={appStore} className="w-3/5  h-fit " alt="illustration" />
+                <Image src={appStore} className=" w-[45%] " alt="appstore" />
               </div>
             </div>
 
-            <Image src={preview} className=" absolute lg:-right-8 lg:top-0 lg:h-[140%] lg:w-1/2 -bottom-14  " alt="illustration" />
+            <Image src={preview} className=" lg:absolute lg:-right-8 lg:top-0 lg:h-[140%] w-4/5  -top-10 h-96 md:relative lg:flex  lg:w-1/2  " alt="phone showcase" />
 
 
           </div>

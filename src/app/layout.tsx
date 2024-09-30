@@ -6,9 +6,17 @@ import Footer from "@/components/Footer";
 
 // Import the Satoshi font (make sure to adjust the path to your font files)
 const satoshi = localFont({
-  src: "./fonts/Satoshi-Regular.woff2", // Change the path to where the Satoshi font is located
-  variable: "--font-satoshi",
-  weight: "100 900",
+  src: [
+    {
+      path: "./fonts/Satoshi-Regular.woff2",
+      weight: "400",
+    },
+    {
+      path: "./fonts/Satoshi-Bold.woff2", // Add the bold version of the font
+      weight: "700",
+    },
+  ],
+  variable: "--font-satoshi"
 });
 
 const geistSans = localFont({

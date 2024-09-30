@@ -12,7 +12,9 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-screen flex justify-between items-center px-6 py-5 border-b">
+       <div  className="flex items-center justify-center" >
+
+<div className="w-screen max-w-5xl  flex justify-between items-center px-6 py-5 border-b">
             <div className="text-2xl text-primary font-semibold">
                 The Fellowship App
             </div>
@@ -53,6 +55,7 @@ const Navbar = () => {
                 </div>
             )}
         </div>
+       </div>
     );
 };
 

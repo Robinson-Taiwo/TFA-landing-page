@@ -12,10 +12,10 @@ const SecondFeature = () => {
                         <div>
                         </div>
                         <div className="flex gap-2 flex-col">
-                            <h2 className="text-xl md:text-3xl tracking-tighter lg:max-w-xl font-regular text-left">
+                            <h2 className="text-xl md:text-3xl tracking-tighter lg:max-w-xl font-bold text-left">
                                 Progress Tracking
                                 Without hassles                            </h2>
-                            <p className="lg:text-lg text-base max-w-xl lg:max-w-sm leading-snug tracking-tight text-muted-foreground text-left">
+                            <p className="lg:text-xl text-base max-w-xl lg:max-w-sm leading-snug tracking-tight text-muted-foreground text-left">
                                 From sermons and prayers to evangelical follow-up and fasting, track your spiritual journey effortlessly.
                                 TFA makes it a joy to log and reflect on your activities, turning devotion into delightful progress.
                             </p>

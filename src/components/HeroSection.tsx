@@ -29,14 +29,14 @@ export const HeroSection = () => {
     return (
         <div className="w-full h-full ">
             <div className="container mx-auto">
-                <div className="flex gap-8 py-20 lg:py-40 items-center justify-center text-center flex-col">
+                <div className="flex gap-8 py-20 lg:py-40 items-center justify-center text-center lg:text-lg flex-col">
                     <div>
                         <p>We Rescue Church Leaders from Annoying and Repetitious Activities
 
                         </p>
                     </div>
                     <div className="flex gap-4 flex-col">
-                        <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
+                        <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-extrabold">
                             <span className="text-spektr-cyan-50">Monitor and Report the Spiritual Growth
                                 of Your </span>
                             <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
@@ -65,7 +65,7 @@ export const HeroSection = () => {
                             </span>
                         </h1>
 
-                        <p className="text-lg md:text-xl leading-snug-tight text-muted-foreground max-w-2xl text-center">
+                        <p className="text-lg lg:text-xl md:text-xl leading-snug-tight text-muted-foreground max-w-2xl text-center">
                             *No Spreadsheet or Stressful Screenshot Required
 
                         </p>
@@ -76,7 +76,7 @@ export const HeroSection = () => {
                     <Image src={illustration} className=" w-[100%] " alt="illustration" />
 
 
-                    <div className="flex w-full max-w-sm items-center space-x-2">
+                    <div className="flex w-full max-w-sm lg:text-lg items-center space-x-2">
                         <Input type="email" placeholder="Email" />
                         <Button type="submit">Download Now</Button>
                     </div>
