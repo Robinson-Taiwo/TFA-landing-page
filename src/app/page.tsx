@@ -1,7 +1,7 @@
 // import Image from "next/image";
 
 import { testimonials } from "@/components/data";
-// import FirstFeature from "@/components/FirstFeature";
+import FirstFeature from "@/components/FirstFeature";
 import FourthFeature from "@/components/FourthFeature";
 import { HeroSection } from "@/components/HeroSection";
 import SecondFeature from "@/components/SecondFeature";
@@ -32,7 +32,10 @@ export default function Home() {
 
           </div>
 
-          {/* <FirstFeature /> */}
+          <div>
+            <FirstFeature />
+          </div>
+
           <SecondFeature />
           <ThirdFeature />
           <FourthFeature />
@@ -121,7 +124,7 @@ export default function Home() {
           <div className="flex items-center mt-20 justify-center w-full" >
             <div className="flex lg:w-9/12 w-4/5 flex-col gap-4 border-y-border items-center justify-center text-center border-y-2  py-4 lg:py-10 " >
               <h2 className="font-bold text-lg lg:text-2xl " >Moreover it is required in stewards that a man be found faithful</h2>
-              <p  className=" italic " >  - 1 Corinthians 4:2 (KJV)</p>
+              <p className=" italic " >  - 1 Corinthians 4:2 (KJV)</p>
 
 
             </div>

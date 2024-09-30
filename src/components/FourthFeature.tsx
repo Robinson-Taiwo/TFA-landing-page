@@ -22,7 +22,7 @@ const FourthFeature = () => {
                         </div>
                     </div>
                     <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
-                    <Image src={illustration} className=" h-full w-full object-cover " alt="illustration" />
+                        <Image src={illustration} className="object-cover w-full h-full" alt="illustration" />
                     </div>
                 </div>
             </div>
