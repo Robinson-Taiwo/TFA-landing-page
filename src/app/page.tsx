@@ -1,7 +1,7 @@
 // import Image from "next/image";
 
 import { testimonials } from "@/components/data";
-import FirstFeature from "@/components/FirstFeature";
+// import FirstFeature from "@/components/FirstFeature";
 import FourthFeature from "@/components/FourthFeature";
 import { HeroSection } from "@/components/HeroSection";
 import SecondFeature from "@/components/SecondFeature";
