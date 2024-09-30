@@ -32,7 +32,7 @@ export default function Home() {
 
           </div>
 
-          <FirstFeature />
+          {/* <FirstFeature /> */}
           <SecondFeature />
           <ThirdFeature />
           <FourthFeature />
@@ -52,7 +52,7 @@ export default function Home() {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="w-4/5 sm:w-72 md:w-64 h-80 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
+                className="w-4/5 sm:w-72 md:w-64 lg:h-80 h-72 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
               >
                 {/* Image (Replace with actual image path and alt text) */}
                 <div className="h-16 w-16 rounded-full bg-muted mb-4">
