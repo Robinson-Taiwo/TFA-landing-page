@@ -7,7 +7,7 @@ const FourthFeature = () => {
         <div className="w-full py-10 lg:py-20">
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-10 lg:items-start">
-                    <div className="flex gap-4 flex-col flex-1">
+                    <div className="flex  flex-col flex-1">
                         <div>
                         </div>
                         <div className="flex gap-2 flex-col">

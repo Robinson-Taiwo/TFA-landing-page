@@ -10,7 +10,7 @@ const ThirdFeature = () => {
                     <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
                         <Image src={illustration} className=" h-full w-full object-cover " alt="illustration" />
                     </div>
-                    <div className="flex gap-4 pl-0 lg:pl-20 flex-col  flex-1">
+                    <div className="flex pl-0 lg:pl-20 flex-col  flex-1">
                         <div>
                         </div>
                         <div className="flex gap-2 flex-col">
