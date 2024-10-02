@@ -6,9 +6,9 @@ const ThirdFeature = () => {
     return (
         <div className="w-full py-10 lg:py-20">
             <div className="container mx-auto">
-                <div className="flex flex-col-reverse lg:flex-row gap-10 lg:items-center">
+                <div className="flex flex-col-reverse lg:flex-row gap-10 lg:items-start">
                     <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
-                    <Image src={illustration} className=" h-full w-full object-cover " alt="illustration" />
+                        <Image src={illustration} className=" h-full w-full object-cover " alt="illustration" />
                     </div>
                     <div className="flex gap-4 pl-0 lg:pl-20 flex-col  flex-1">
                         <div>
