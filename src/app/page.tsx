@@ -48,11 +48,11 @@ export default function Home() {
 
             Hear from other Christian Leaders...
           </h1>
-          <div className="flex flex-wrap w-full justify-between mt-10 px-8 pb-8 ">
+          <div className="flex flex-wrap md:justify-center w-full lg:justify-between gap-6 mt-10 md:px-8 pb-8 ">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="w-4/5 sm:w-72 md:w-64 lg:h-80 h-72 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
+                className="w-full sm:w-72  md:w-64 lg:h-80 h-72 bg-primary text-primary-foreground rounded-lg p-6 flex flex-col items-center justify-between"
               >
                 {/* Image (Replace with actual image path and alt text) */}
                 <div className="h-16 w-16 rounded-full bg-muted mb-4">
