@@ -15,8 +15,7 @@ const FourthFeature = () => {
                                 The Whole Armour, on autopilot
                             </h2>
                             <p className="lg:text-xl text-base max-w-xl lg:max-w-sm leading-snug tracking-tight text-muted-foreground text-left">
-                                Nurture your faith journey with tools designed to foster consistency and growth. From sermon reminders to Bible reading trackers, TFA equips you with everything you need to.
-
+                                Nurture your faith journey with tools designed to foster consistency and growth. From sermon reminders to Bible reading trackers, TFA equips you with everything you need to stay spiritually disciplined and connected.
 
                             </p>
                         </div>

@@ -43,15 +43,12 @@ export default function Home() {
         </div>
 
         <section className="h-full mt-20">
-          <h3 className="  text-base lg:text-lg mb-10 text-muted-foreground font-medium" >
-
-            stay spiritually disciplined and connected
-          </h3>
+         
           <h1 className="  text-2xl lg:text-4xl font-semibold" >
 
             Hear from other Christian Leaders...
           </h1>
-          <div className="flex flex-wrap w-full justify-center mt-10 pb-8 gap-8">
+          <div className="flex flex-wrap w-full justify-between mt-10 px-8 pb-8 ">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
@@ -137,23 +134,23 @@ export default function Home() {
 
 
 
-          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden lg:h-96 h-[27rem] bg-primary rounded-3xl max-w-5xl items-center  ">
+          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden lg:h-96 h-[27rem] bg-primary rounded-3xl max-w-5xl   ">
 
 
 
-            <div className=" w-full lg:w-3/5 lg:p-8 p-4 md:p-6 " >
-              <h1 className="text-primary-foreground lg:leading-snug  lg:text-5xl md:text-4xl font-extrabold text-2xl  " >
+            <div className=" w-full lg:w-3/5 lg:p-8 lg:pt-20 p-4 md:p-6 " >
+              <h1 className="text-primary-foreground lg:leading-snug  lg:text-4xl md:text-4xl font-extrabold w-[80%] text-2xl  " >
                 Get started with your fellowship journey
               </h1>
 
-              <p className="text-primary-foreground mt-4 leading-tight text-sm lg:text-xl md:text-base  " >
+              <p className="text-primary-foreground mt-4 leading-tight text-sm lg:text-lg md:text-base  " >
                 Discover the latest Fellowship innovation
               </p>
 
               <div className="md:w-3/5 w-full lg:w-fit mt-4 flex flex-row md:gap-4 gap-[5%] ">
-                <Image src={google} className="  w-[45%]  " alt="illustration" />
+                <Image src={google} className="  w-[30%]  " alt="illustration" />
 
-                <Image src={appStore} className=" w-[45%] " alt="appstore" />
+                <Image src={appStore} className=" w-[30%] " alt="appstore" />
               </div>
             </div>
 

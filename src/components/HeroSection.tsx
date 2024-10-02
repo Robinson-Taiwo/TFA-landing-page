@@ -73,12 +73,12 @@ export const HeroSection = () => {
 
 
 
-                    <Image src={illustration} className=" w-[100%] " alt="illustration" />
+                    <Image src={illustration} className=" w-full" alt="illustration" />
 
 
-                    <div className="flex w-full max-w-sm lg:text-lg items-center  space-x-2">
-                        <Input type="email"  className="lg:text-lg"   placeholder="Email" />
-                        <Button type="submit" className="lg:text-lg  "  >Download Now</Button>
+                    <div className="flex w-full max-w-sm  lg:max-w-lg items-center space-x-2">
+                        <Input type="email" placeholder="Enter your email address" />
+                        <Button type="submit">Get Download LInk</Button>
                     </div>
 
                 </div>
