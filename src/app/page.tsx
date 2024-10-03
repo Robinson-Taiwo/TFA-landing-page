@@ -134,12 +134,12 @@ export default function Home() {
 
 
 
-          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden lg:h-96 h-[27rem] bg-primary rounded-3xl max-w-5xl   ">
+          <div className="w-full flex flex-col lg:flex-row relative overflow-hidden lg:h-96 h-[27rem]  bg-primary rounded-3xl max-w-5xl   ">
 
 
 
             <div className=" w-full lg:w-3/5 lg:p-8 lg:pt-20 p-4 md:p-6 " >
-              <h1 className="text-primary-foreground lg:leading-snug  lg:text-4xl md:text-4xl font-extrabold w-[80%] text-2xl  " >
+              <h1 className="text-primary-foreground lg:leading-snug  lg:text-4xl md:text-4xl font-extrabold w-4/5  text-2xl  " >
                 Get started with your fellowship journey
               </h1>
 
@@ -148,9 +148,9 @@ export default function Home() {
               </p>
 
               <div className="md:w-3/5 w-full lg:w-fit mt-4 flex flex-row md:gap-4 gap-[5%] ">
-                <Image src={google} className="  w-[30%]  " alt="illustration" />
+                <Image src={google} className="  w-2/6  " alt="illustration" />
 
-                <Image src={appStore} className=" w-[30%] " alt="appstore" />
+                <Image src={appStore} className=" w-2/6 " alt="appstore" />
               </div>
             </div>
 
