@@ -76,9 +76,9 @@ export const HeroSection = () => {
                     <Image src={illustration} className=" w-full" alt="illustration" />
 
 
-                    <div className="flex w-full max-w-sm  lg:max-w-lg items-center space-x-2">
-                        <Input type="email" placeholder="Enter your email address" />
-                        <Button type="submit">Get Download LInk</Button>
+                    <div className="flex w-full max-w-sm  lg:max-w-lg items-center lg:text-lg space-x-2">
+                        <Input type="email" placeholder="Enter your email address" className="lg:text-lg " />
+                        <Button type="submit"  className="lg:text-lg" >Get Download LInk</Button>
                     </div>
 
                 </div>

@@ -148,9 +148,9 @@ export default function Home() {
               </p>
 
               <div className="md:w-3/5 w-full lg:w-fit mt-4 flex flex-row md:gap-4 gap-[5%] ">
-                <Image src={google} className="  w-2/6  " alt="illustration" />
+                <Image src={google} className=" cursor-pointer  w-2/6  " alt="illustration" />
 
-                <Image src={appStore} className=" w-2/6 " alt="appstore" />
+                <Image src={appStore} className=" w-2/6  cursor-pointer " alt="appstore" />
               </div>
             </div>
 
